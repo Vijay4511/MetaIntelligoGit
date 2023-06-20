@@ -1,0 +1,13 @@
+Assignment one
+Create a properties file
+
+url = https://www.redbus.in/
+username = Mettaintiligo
+password = pass12334
+run=regression
+
+Change run key value to smoke
+
+Assignment 2
+
+Take screenshot of Registration form of TSRTC website
