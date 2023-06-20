@@ -1,0 +1,9 @@
+//td[text()='Sariful Islam']
+
+//Tagname[@attribute=’value’]/tagname  
+
+
+C:\Users\vjred\Desktop\AutomationTraining\Docs
+
+
+C --> users --> vjred --> desktop --> AutomationTraining -->
