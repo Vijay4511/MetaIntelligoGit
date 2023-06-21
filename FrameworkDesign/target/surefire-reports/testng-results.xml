@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T10:36:01 IST" name="Suite" finished-at="2023-06-15T10:36:28 IST" duration-ms="26797">
+    <groups>
+      <group name="smoke">
+        <method signature="ForgetPasswordTest.EmailfieldValidaiton()[pri:0, instance:test.ForgetPasswordTest@53fb3dab]" name="EmailfieldValidaiton" class="test.ForgetPasswordTest"/>
+        <method signature="LoginModuleTest.ValidUsernameInvalidPassword()[pri:0, instance:test.LoginModuleTest@4b013c76]" name="ValidUsernameInvalidPassword" class="test.LoginModuleTest"/>
+        <method signature="RegistrationModuleTest.FullNameValid()[pri:0, instance:test.RegistrationModuleTest@663c9e7a]" name="FullNameValid" class="test.RegistrationModuleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-15T10:36:01 IST" name="Test" finished-at="2023-06-15T10:36:28 IST" duration-ms="26797">
+      <class name="test.ForgetPasswordTest">
+        <test-method is-config="true" signature="ApplicationNavigation()[pri:0, instance:test.ForgetPasswordTest@53fb3dab]" started-at="2023-06-15T10:36:19 IST" name="ApplicationNavigation" finished-at="2023-06-15T10:36:27 IST" duration-ms="8518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationNavigation -->
+        <test-method signature="EmailfieldValidaiton()[pri:0, instance:test.ForgetPasswordTest@53fb3dab]" started-at="2023-06-15T10:36:27 IST" name="EmailfieldValidaiton" finished-at="2023-06-15T10:36:28 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailfieldValidaiton -->
+      </class> <!-- test.ForgetPasswordTest -->
+      <class name="test.LoginModuleTest">
+        <test-method is-config="true" signature="ApplicationNavigation()[pri:0, instance:test.LoginModuleTest@4b013c76]" started-at="2023-06-15T10:36:10 IST" name="ApplicationNavigation" finished-at="2023-06-15T10:36:17 IST" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationNavigation -->
+        <test-method signature="ValidUsernameInvalidPassword()[pri:0, instance:test.LoginModuleTest@4b013c76]" started-at="2023-06-15T10:36:17 IST" name="ValidUsernameInvalidPassword" finished-at="2023-06-15T10:36:19 IST" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameInvalidPassword -->
+      </class> <!-- test.LoginModuleTest -->
+      <class name="test.RegistrationModuleTest">
+        <test-method is-config="true" signature="ApplicationNavigation()[pri:0, instance:test.RegistrationModuleTest@663c9e7a]" started-at="2023-06-15T10:36:01 IST" name="ApplicationNavigation" finished-at="2023-06-15T10:36:07 IST" duration-ms="5931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationNavigation -->
+        <test-method signature="FullNameValid()[pri:0, instance:test.RegistrationModuleTest@663c9e7a]" started-at="2023-06-15T10:36:07 IST" name="FullNameValid" finished-at="2023-06-15T10:36:10 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullNameValid -->
+      </class> <!-- test.RegistrationModuleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

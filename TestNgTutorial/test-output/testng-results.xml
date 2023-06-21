@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T11:02:15 IST" name="APSRTC Execution" finished-at="2023-06-02T11:02:24 IST" duration-ms="9145">
+    <groups>
+      <group name="smoke">
+        <method signature="TicketStatusTest.TransactionStatus()[pri:0, instance:base.TicketStatusTest@72e5a8e]" name="TransactionStatus" class="base.TicketStatusTest"/>
+        <method signature="GalleryWalletTest.ViewWalletinfo()[pri:0, instance:base.GalleryWalletTest@2c35e847]" name="ViewWalletinfo" class="base.GalleryWalletTest"/>
+        <method signature="HomeModuleTest.BookTicket()[pri:0, instance:base.HomeModuleTest@1151e434]" name="BookTicket" class="base.HomeModuleTest"/>
+        <method signature="RegistrationModuleTest.SuccessfulRegis()[pri:0, instance:base.RegistrationModuleTest@55634720]" name="SuccessfulRegis" class="base.RegistrationModuleTest"/>
+        <method signature="SignInModuleTest.Forgetpassword()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" name="Forgetpassword" class="base.SignInModuleTest"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="TicketStatusTest.ServiceStatus()[pri:0, instance:base.TicketStatusTest@72e5a8e]" name="ServiceStatus" class="base.TicketStatusTest"/>
+        <method signature="TicketStatusTest.TicketEnquiry()[pri:0, instance:base.TicketStatusTest@72e5a8e]" name="TicketEnquiry" class="base.TicketStatusTest"/>
+        <method signature="GalleryWalletTest.ViewGallery()[pri:0, instance:base.GalleryWalletTest@2c35e847]" name="ViewGallery" class="base.GalleryWalletTest"/>
+        <method signature="HomeModuleTest.SearchBuses()[pri:0, instance:base.HomeModuleTest@1151e434]" name="SearchBuses" class="base.HomeModuleTest"/>
+        <method signature="RegistrationModuleTest.NegativeValidEmail()[pri:0, instance:base.RegistrationModuleTest@55634720]" name="NegativeValidEmail" class="base.RegistrationModuleTest"/>
+        <method signature="RegistrationModuleTest.NegativeValidLoginFullname()[pri:0, instance:base.RegistrationModuleTest@55634720]" name="NegativeValidLoginFullname" class="base.RegistrationModuleTest"/>
+        <method signature="SignInModuleTest.SiginNegValidation()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" name="SiginNegValidation" class="base.SignInModuleTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-06-02T11:02:15 IST" name="Apsrtc Application" finished-at="2023-06-02T11:02:24 IST" duration-ms="9145">
+      <class name="base.HomeModuleTest">
+        <test-method is-config="true" signature="HomeDriverInitilization()[pri:0, instance:base.HomeModuleTest@1151e434]" started-at="2023-06-02T11:02:15 IST" name="HomeDriverInitilization" finished-at="2023-06-02T11:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeDriverInitilization -->
+        <test-method signature="BookTicket()[pri:0, instance:base.HomeModuleTest@1151e434]" started-at="2023-06-02T11:02:15 IST" name="BookTicket" finished-at="2023-06-02T11:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookTicket -->
+        <test-method signature="SearchBuses()[pri:0, instance:base.HomeModuleTest@1151e434]" started-at="2023-06-02T11:02:15 IST" name="SearchBuses" finished-at="2023-06-02T11:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBuses -->
+      </class> <!-- base.HomeModuleTest -->
+      <class name="base.GalleryWalletTest">
+        <test-method signature="ViewGallery()[pri:0, instance:base.GalleryWalletTest@2c35e847]" started-at="2023-06-02T11:02:15 IST" name="ViewGallery" finished-at="2023-06-02T11:02:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewGallery -->
+        <test-method signature="ViewWalletinfo()[pri:0, instance:base.GalleryWalletTest@2c35e847]" started-at="2023-06-02T11:02:15 IST" name="ViewWalletinfo" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewWalletinfo -->
+      </class> <!-- base.GalleryWalletTest -->
+      <class name="base.RegistrationModuleTest">
+        <test-method is-config="true" signature="DriverInitilization()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="DriverInitilization" finished-at="2023-06-02T11:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInitilization -->
+        <test-method signature="NegativeFullname()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="NegativeFullname" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeFullname -->
+        <test-method signature="NegativeValidEmail()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="NegativeValidEmail" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeValidEmail -->
+        <test-method signature="NegativeValidLoginFullname()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="NegativeValidLoginFullname" finished-at="2023-06-02T11:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeValidLoginFullname -->
+        <test-method signature="NegativeValidMobilenum()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="NegativeValidMobilenum" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeValidMobilenum -->
+        <test-method signature="SuccessfulRegis()[pri:0, instance:base.RegistrationModuleTest@55634720]" started-at="2023-06-02T11:02:15 IST" name="SuccessfulRegis" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulRegis -->
+      </class> <!-- base.RegistrationModuleTest -->
+      <class name="base.SignInModuleTest">
+        <test-method is-config="true" signature="ClearCache()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:15 IST" name="ClearCache" finished-at="2023-06-02T11:02:15 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearCache -->
+        <test-method signature="SuccessfulRegistration()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:15 IST" name="SuccessfulRegistration" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulRegistration -->
+        <test-method signature="Forgetpassword()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:15 IST" name="Forgetpassword" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgetpassword -->
+        <test-method signature="SiginNegValidation()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:15 IST" name="SiginNegValidation" finished-at="2023-06-02T11:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SiginNegValidation -->
+        <test-method signature="SuccessfSigin(java.lang.String,java.lang.String)[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:15 IST" name="SuccessfSigin" data-provider="getLoginData" finished-at="2023-06-02T11:02:21 IST" depends-on-methods="base.SignInModuleTest.SuccessfulRegistration" duration-ms="5792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VjayInvalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfSigin -->
+        <test-method signature="SuccessfSigin(java.lang.String,java.lang.String)[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:21 IST" name="SuccessfSigin" data-provider="getLoginData" finished-at="2023-06-02T11:02:24 IST" depends-on-methods="base.SignInModuleTest.SuccessfulRegistration" duration-ms="3288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vjay451]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfSigin -->
+        <test-method is-config="true" signature="CloseInstance()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:24 IST" name="CloseInstance" finished-at="2023-06-02T11:02:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseInstance -->
+        <test-method is-config="true" signature="Closingbrowser()[pri:0, instance:base.SignInModuleTest@7d4f9aae]" started-at="2023-06-02T11:02:25 IST" name="Closingbrowser" finished-at="2023-06-02T11:02:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingbrowser -->
+      </class> <!-- base.SignInModuleTest -->
+      <class name="base.TicketStatusTest">
+        <test-method signature="ServiceStatus()[pri:0, instance:base.TicketStatusTest@72e5a8e]" started-at="2023-06-02T11:02:24 IST" name="ServiceStatus" finished-at="2023-06-02T11:02:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceStatus -->
+        <test-method signature="TicketEnquiry()[pri:0, instance:base.TicketStatusTest@72e5a8e]" started-at="2023-06-02T11:02:24 IST" name="TicketEnquiry" finished-at="2023-06-02T11:02:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicketEnquiry -->
+        <test-method signature="TransactionStatus()[pri:0, instance:base.TicketStatusTest@72e5a8e]" started-at="2023-06-02T11:02:24 IST" name="TransactionStatus" finished-at="2023-06-02T11:02:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransactionStatus -->
+      </class> <!-- base.TicketStatusTest -->
+    </test> <!-- Apsrtc Application -->
+  </suite> <!-- APSRTC Execution -->
+</testng-results>

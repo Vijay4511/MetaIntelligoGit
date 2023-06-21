@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APSRTC Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Apsrtc Application(failed)">
+    <classes>
+      <class name="base.SignInModuleTest">
+        <methods>
+          <include name="SuccessfSigin" invocation-numbers="0 1"/>
+          <include name="ClearCache"/>
+          <include name="Closingbrowser"/>
+          <include name="CloseInstance"/>
+          <include name="SuccessfulRegistration"/>
+        </methods>
+      </class> <!-- base.SignInModuleTest -->
+    </classes>
+  </test> <!-- Apsrtc Application(failed) -->
+</suite> <!-- Failed suite [APSRTC Execution] -->
